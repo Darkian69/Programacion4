@@ -46,21 +46,45 @@ public class main {
 
 
   //Ejercicio 3
-  Cilindro [] cl = new Cilindro[6];
-  cl[0] = new Cilindro(10, 2);
-  cl[1] = new Cilindro(15, 9);
-  cl[2] = new Cilindro(20, 10);
-  cl[3] = new Cilindro(5, 12);
-  cl[4] = new Cilindro(8, 9);
-  cl[5] = new Cilindro(12, 4);
+  // Cilindro [] cl = new Cilindro[6];
+  // cl[0] = new Cilindro(10, 2);
+  // cl[1] = new Cilindro(15, 9);
+  // cl[2] = new Cilindro(20, 10);
+  // cl[3] = new Cilindro(5, 12);
+  // cl[4] = new Cilindro(8, 9);
+  // cl[5] = new Cilindro(12, 4);
+  //
+  // for (int i = 0; i<6;i++){
+  //   System.out.println("Cilindro " + (int) (i+1));
+  //   cl[i].mostrar();
 
-  for (int i = 0; i<6;i++){
-    System.out.println("Cilindro " + (int) (i+1));
-    cl[i].mostrar();
+//Ejercicio 4
+
+  // Factura [] fc = new Factura[2];
+  // for(int i=0; i<2;i++){
+  //   fc[i] = new Factura();
+  // System.out.println("Factura " + (int) (i+1));
+  //   fc[i].ingresarFactura();
+  // }
+  //
+  // for(int i=0; i<2;i++){
+  // System.out.println("Factura " + (int) (i+1));
+  //   fc[i].imprimirFactura();
+  // }
+
+  //Ejercicio 5
+  // Estudiante [] estu = new Estudiante[2];
+  //
+  // for(int i=0;i<estu.length;i++){
+  //   estu[i] = new Estudiante();
+  //   System.out.println("Ingrese estudiante N" + (int)(i+1));
+  //   estu[i].ingresarNotas();
+  // }
+  // for(int i=0;i<estu.length;i++){
+  //   estu[i].imprimirNotas();
+  // }
+
+
+
   }
-
-
-  }
-
-
 }
