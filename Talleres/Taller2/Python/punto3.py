@@ -47,9 +47,9 @@ class Fecha:
 #10858
 
 #
-# fec1 = input("Ingrese la fecha 1 (DD/MM/AAAA): ")
-# fec2 = input("Ingrese la fecha 2 (DD/MM/AAAA): ")
-#dia = Fecha("07/11/2002", "01/03/2022")
-#print(dia.calcularDiferencia())
+fec1 = input("Ingrese la fecha 1 (DD/MM/AAAA): ")
+fec2 = input("Ingrese la fecha 2 (DD/MM/AAAA): ")
+dia = Fecha("07/11/2002", "01/03/2022")
+print(dia.calcularDiferencia())
 #
 # dia.operar()
